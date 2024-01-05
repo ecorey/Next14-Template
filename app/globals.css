@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.pixelify_sans {
+  font-family: var(--font-pixelify_sans);
+}
+
+
+
+.layout-grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Header, Content, Footer */
+  min-height: 100vh; /* Full viewport height */
+}
+
